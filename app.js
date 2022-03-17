@@ -30,6 +30,7 @@ start.addEventListener("click", () =>{
 
 
     result.style.display = "block";
+    start.style.display = "none";
     reset.style.display = "inline-block"
 
     if(num_of_won > num_of_lost){

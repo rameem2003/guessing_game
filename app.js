@@ -23,7 +23,7 @@ start.addEventListener("click", () =>{
             num_of_won++;
         }
         else{
-            console.log("You lost" + randomNumber);
+            console.log("You lost " + randomNumber);
             num_of_lost++;
         }
     }
